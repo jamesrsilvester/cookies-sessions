@@ -33,8 +33,6 @@ There are a few ways to ensure that your users experience "continuity" between v
 ### What's a cookie?
 An HTTP cookie is a [small piece of data](http://stackoverflow.com/questions/4100324/how-many-characters-can-be-stored-in-4kb) sent from a website and stored in a user's web browser. Every time the user loads the website, the browser sends the cookie back to the server in the HTTP Request Header. Cookies are commonly used to track whether a user is logged in or not. They can also be used to record user preferences.
 
-![cookie-monster](http://media0.giphy.com/media/EKUvB9uFnm2Xe/giphy.gif)
-
 Our goal today is to harness the power of cookies. First, to track visitors to our website. And secondly, to track their login "session".
 
 ## Reading and Writing Cookies -- Server Side
